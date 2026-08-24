@@ -64,6 +64,11 @@
   #ctlswitch[aria-checked="true"]{color:var(--accent)}
   #ctlswitch[aria-checked="true"] span{background:var(--accent)}
   #ctlswitch[aria-checked="true"] span:after{left:16px}
+  .purpose{border-left:3px solid var(--accent);padding:2px 0 2px 15px;margin:14px 0 12px}
+  .purpose h2{font-size:13px;margin:0 0 6px;letter-spacing:.05em;text-transform:uppercase;
+    color:var(--muted);font-weight:700}
+  .purpose ul{margin:0;padding-left:17px;font-size:14px;line-height:1.65;max-width:78ch}
+  .purpose li{margin:1px 0}
   .sortrow{display:flex;align-items:center;gap:9px;flex-wrap:wrap;flex-basis:100%;margin-top:2px}
   #ctlzone.locked .ctl{opacity:.45;pointer-events:none;user-select:none}
   [hidden]{display:none !important}
@@ -195,8 +200,16 @@
 <div class="wrap">
 
 <h1>Használtautó összehasonlítás</h1>
-<p class="sub">13 Ford Focus és 10 Skoda Octavia · magánszemélyként, bruttó árakkal · összeállítva 2026. augusztus 18-án<br>
-<span class="legend"><span class="sw" style="background:#2f5d8a"></span>Ford Focus &nbsp;&nbsp;<span class="sw" style="background:#3f7d5c"></span>Skoda Octavia &nbsp;&nbsp;· minden kép és cím a hirdetésre kattintható</span></p>
+<div class="purpose">
+  <h2>Mire keresem az autót</h2>
+  <ul>
+    <li><b>Családi autó</b>, könnyen fenntartható</li>
+    <li>Városi használat és <b>napi ingázás Hódmezővásárhely – Szeged</b> között</li>
+    <li>Kéthetente vidéki utak, <b>100–200 km</b> távolságban</li>
+    <li>Évi 1–2 hosszabb út: kirándulás, esetleg külföld</li>
+  </ul>
+</div>
+<p class="sub"><span class="legend"><span class="sw" style="background:#2f5d8a"></span>Ford Focus &nbsp;&nbsp;<span class="sw" style="background:#3f7d5c"></span>Skoda Octavia &nbsp;&nbsp;· minden kép és cím a hirdetésre kattintható</span></p>
 
 
 <h2>Áttekintés – rangsor szerint</h2>
